@@ -1,7 +1,6 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image:url("Imagenes/Fiesta.jfif");
     color: #333;
     text-align: center;
     margin: 0;
@@ -9,7 +8,6 @@ body {
 }
 
 .container {
-    background-image: url("Imagenes/Bailando_2.0.gif");
     background-size: cover;
     border: 2px solid #d1a83a;
     margin: 20px auto;
