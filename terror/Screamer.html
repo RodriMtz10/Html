@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Dice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Simon Dice</h1>
+        <p id="message">Haz clic para comenzar</p>
+        <div class="board">
+            <div class="color-button" id="green"></div>
+            <div class="color-button" id="red"></div>
+            <div class="color-button" id="yellow"></div>
+            <div class="color-button" id="blue"></div>
+        </div>
+        <button id="start">Comenzar Juego</button>
+    </div>
+    <div class="screamer hidden" id="screamer">
+        <img src="screamer.gif" alt="Screamer GIF">
+        <audio id="screamer-audio" src="screamer-audio.mp3"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
